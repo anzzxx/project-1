@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block tittle %}Document{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.2/lumen/bootstrap.rtl.min.css" integrity="sha512-F8fJgwWNrBc1Q1jDcqmcIyC+N77zdYZmrWqqI1KQIQ0hBQZFZ45lASRNCtD35rYkNOW3uwpDGCAapyud7ADP8g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- As a link -->
+<nav class="navbar bg-body-tertiary" style="color: gray;">
+    <div class="container-fluid" style="color: rgb(219, 72, 72);">
+      <a class="navbar-brand" href="#">ACTORS</a>
+    </div>
+  </nav>
+  
+ 
+   
+
+    {% block content %}{% endblock %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
+</body>
+</html>
